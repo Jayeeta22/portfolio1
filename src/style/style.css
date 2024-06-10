@@ -1,0 +1,103 @@
+.animate-charcter-home
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #451ade 0%,
+    #6ea0e6 29%,
+    #e97ca0 67%,
+    #f7f49c 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 150% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+    font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+  .flicker {
+    font-size: 30px;
+    font-family: 'Merienda', sans-serif;
+    margin: 1rem auto;
+    color: #fffefe61;
+    background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(#1d1c1c), color-stop(0.8, #ffffff)) no-repeat;
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff)) no-repeat;
+    background-size: 110px 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flick 2s infinite;
+  }
+  @keyframes flick {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+
+  .home{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-section1, .home-section2{
+    padding: 10%;
+  }
+
+  .app{
+    background: linear-gradient(to right, rgb(44, 44, 66), rgb(4, 1, 44));
+  }
+.footer{
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+}
+
+  .images{
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    transition: transform .2s;
+   
+  }
+  .images:hover{
+    -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .skill, .work , .contact ,.about, .footer{
+     
+     height: auto;
+    }
+    .home{
+      height: auto;
+      display: flex;
+      flex-direction: column;
+     }
+    
+   
+  }
+  
