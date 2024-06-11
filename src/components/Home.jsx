@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div name='home' className='home w-full '>
       {/* Container */}
-      <div className='home-section1' data-aos="fade-up-right" data-aos-duration="1000">
+      <div className='home-section1'>
         <p className='text-pink-600' style={{fontSize:"20px"}}>Hi, my name is</p>
         <h1 className='text-4xl sm:text-5xl font-bold text-[#ccd6f6]'>
         𝒥𝒶𝓎𝑒𝑒𝓉𝒶 𝒮𝒶𝒹𝒽𝓊𝓀𝒽𝒶𝓃
@@ -32,7 +32,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className='home-section2' data-aos="fade-up-left" data-aos-duration="1000">
+      <div className='home-section2'>
       <img src={jayeeimg} alt='Logo Image' style={{ width: '400px',height:"300px" }} />
       </div>
     </div>

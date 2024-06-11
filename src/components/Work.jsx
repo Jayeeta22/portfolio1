@@ -9,12 +9,11 @@ const Work = () => {
     //setProject(data);
   
   return (
-    <div name='work' className='work w-full  text-gray-300 bg-[]' data-aos="zoom-in"
-    data-aos-duration="1000">
+    <div name='work' className='work w-full  text-gray-300 bg-[]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full' >
-      <div className='max-w-[1000px] w-full h-full '>
-          <div className='text-start md:text-center pb-6 pl-3'>
+      <div className='max-w-[1000px] w-full h-full grid grid-cols-2 gap-8'>
+          <div className='sm:text-right pb-6 pl-3'>
             <p className='text-4xl font-bold inline' style={{color:"pink"}}>
             𝒫𝓇𝑜𝒿𝑒𝒸𝓉𝓈
             </p>

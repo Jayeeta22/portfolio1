@@ -2,12 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name='contact' className='contact w-full mt-10 bg-[] flex justify-center items-center p-4' data-aos="zoom-in"
-    data-aos-duration="1000">
+    <div name='contact' className='contact w-full  bg-[] flex justify-center items-center p-4'>
         <form method='POST' action="https://getform.io/f/d0e7279a-0ef3-4728-915f-e6d071f5faab" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
-           < div className='max-w-[1000px] w-full h-full'>
-          <div className='text-start md:text-center  pl-3'>
+           < div className='max-w-[1000px] w-full h-full grid grid-cols-2 gap-8'>
+          <div className='sm:text-right pb-6 pl-3'>
             <p className='text-4xl font-bold inline' style={{color:"pink"}}>
             𝒞𝑜𝓃𝓉𝒶𝒸𝓉
             </p>
