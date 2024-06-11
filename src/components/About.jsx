@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div name='about' className='about w-full bg-[] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-6'>
-          <div className='sm:text-right pb-6 pl-3'>
+        <div className='max-w-[1000px] w-full'>
+          <div className='text-start md:text-center  pb-6 pl-3'>
             <p className='text-4xl font-bold inline' style={{color:"pink"}}>
            𝒜𝒷𝑜𝓊𝓉 𝓂𝑒
             </p>
