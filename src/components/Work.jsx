@@ -27,8 +27,9 @@ const Work = () => {
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
-              data-aos-duration="1000"
-              data-aos="flip-down"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
               className=" shadow-lg shadow-[#040c16] group container rounded-md 

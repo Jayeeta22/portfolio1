@@ -8,7 +8,8 @@ import facebook from '../assets/fb.png'
 function Footer() {
   return (
    
-        <div className='footer' data-aos="fade-up">
+        <div className='footer' data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <div className="images" >
             <a href='http://www.linkedin.com/in/jayeeta-sadhukhan-b7985b217'>
             <img src={linkedin} alt='linkedin'/>
