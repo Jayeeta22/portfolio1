@@ -9,7 +9,7 @@ const Work = () => {
   //setProject(data);
 
   return (
-    <div name='work' className='work w-full  text-gray-300 bg-[]'>
+    <div name='work' id="work" className='work w-full  text-gray-300 bg-[]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full' >
           <div className='max-w-[1000px] w-full h-full'>
@@ -27,6 +27,8 @@ const Work = () => {
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
+              data-aos-duration="1000"
+              data-aos="flip-down"
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
               className=" shadow-lg shadow-[#040c16] group container rounded-md 

@@ -3,7 +3,8 @@ import img from '../assets/jayeetaimg.png'
 
 const About = () => {
   return (
-    <div name='about' className='about w-full bg-[] text-gray-300'>
+    <div name='about' id="about" className='about w-full bg-[] text-gray-300 ' data-aos="zoom-in"
+    data-aos-duration="1000">
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] px-4  w-full'>
           <div className='text-start md:text-center pb-6 pl-3 '>

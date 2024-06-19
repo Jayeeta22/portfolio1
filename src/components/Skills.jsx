@@ -13,7 +13,7 @@ import Nextjs from '../assets/nextjs.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='skill w-full mt-20 bg-[] text-gray-300'>
+    <div name='skills' id="skill" className='skill w-full mt-20 bg-[] text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full' >
       <div className='max-w-[1000px] w-full h-full '>

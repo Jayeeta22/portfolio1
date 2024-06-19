@@ -5,7 +5,7 @@ import jayeeimg from '../assets/jayeimg.png'
 
 const Home = () => {
   return (
-    <div name='home' className='home w-full '>
+    <div name='home' id="home" className='home w-full '>
       {/* Container */}
       <div className='home-section1' data-aos="fade-up-right" data-aos-duration="1000">
         <p className='text-pink-600' style={{fontSize:"20px"}}>Hi, my name is</p>
