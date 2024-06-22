@@ -8,7 +8,7 @@ const Work = () => {
   //setProject(data);
 
   return (
-    <div name='work' id="work" className='work w-full  text-gray-300 bg-[]'>
+    <div  className='work w-full  text-gray-300 bg-[]'>
       <div className=' mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='mx-auto p-4 flex flex-col justify-center w-full h-full' >
           <div className=' w-full h-full'>

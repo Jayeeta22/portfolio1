@@ -15,7 +15,7 @@ const ProjectShowcase = () => {
     const project = data[currentProject];
 
     return (
-        <div>
+        <div name='work' id="work">
             <div className='text-start md:text-center  p-8 pl-3'>
                 <p className='text-4xl px-4  font-bold inline' style={{ color: "pink" }}>
                     𝒫𝓇𝑜𝒿𝑒𝒸𝓉𝓈
